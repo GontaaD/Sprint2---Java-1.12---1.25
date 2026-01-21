@@ -1,4 +1,4 @@
-package org.tasks.Object;
+package org.tasks.Object.Task1;
 
 public class Person {
     private String name;

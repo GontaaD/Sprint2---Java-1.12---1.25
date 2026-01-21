@@ -1,6 +1,4 @@
-package org.tasks;
-
-import org.tasks.Object.Car;
+package org.tasks.Object.Task2;
 
 public class Main {
     public static void main(String[] args) {

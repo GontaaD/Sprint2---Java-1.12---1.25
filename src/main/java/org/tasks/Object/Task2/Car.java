@@ -1,4 +1,4 @@
-package org.tasks.Object;
+package org.tasks.Object.Task2;
 
 public class Car {
     String brand;
