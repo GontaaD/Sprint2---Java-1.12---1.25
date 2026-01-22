@@ -1,0 +1,30 @@
+package org.tasks.OOP.AbstractClass_Interface.AbstractClass.Task2;
+
+public abstract class Vehicle {
+    protected String model;
+    protected double fuelLevel;
+
+    public Vehicle(String model, double fuelLevel) {
+        this.model = model;
+        this.fuelLevel = fuelLevel;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public double getFuelLevel() {
+        return fuelLevel;
+    }
+
+    public abstract void drive(double distance);
+
+    public void refuel(double amount) {
+        if (amount < 0) {
+            System.out.println("Refuel should be positive");
+            return;
+        }
+        fuelLevel += amount;
+        System.out.println(model + " refuel on " + amount);
+    }
+}
